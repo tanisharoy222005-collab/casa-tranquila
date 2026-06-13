@@ -388,33 +388,142 @@ p{
    EXPERIENCES
 ===================================== */
 
-#experience-grid{
-    margin-top:60px;
+/* =====================================
+   EXPERIENCES CAROUSEL
+===================================== */
 
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:25px;
+.carousel-wrapper{
+    position:relative;
+    width:90%;
+    max-width:1400px;
+    margin:60px auto 0;
+}
+
+#experience-grid{
+    display:flex;
+    gap:30px;
+
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+
+    padding:10px 5px;
 }
 
 .experience-card{
-    background:white;
-    border-radius:18px;
+    flex:0 0 380px;
+
+    background:#fff;
+    border-radius:22px;
     overflow:hidden;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.05);
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+}
+
+.experience-card:hover{
+    transform:translateY(-8px);
 }
 
 .experience-card img{
-    height:240px;
+    width:100%;
+    height:250px;
     object-fit:cover;
 }
 
-.experience-card h3{
-    padding:20px 20px 10px;
+.card-content{
+    padding:24px;
 }
 
-.experience-card p{
-    padding:0 20px 20px;
+.card-content h3{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.9rem;
+    color:#1f1f1f;
+
+    margin-bottom:8px;
+}
+
+.location-distance{
+    display:block;
+
+    font-size:.85rem;
+    font-weight:600;
+
+    text-transform:uppercase;
+    letter-spacing:2px;
+
+    color:#b9925e;
+
+    margin-bottom:14px;
+}
+
+.card-content p{
+    font-size:.95rem;
+    line-height:1.7;
+    color:#666;
+}
+
+/* ==========================
+   ARROWS
+========================== */
+
+.carousel-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+
+    width:58px;
+    height:58px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#fff;
+    color:#111;
+
+    font-size:1.4rem;
+    cursor:pointer;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+
+    z-index:20;
+}
+
+.carousel-btn:hover{
+    transform:translateY(-50%) scale(1.08);
+}
+
+.prev-btn{
+    left:-25px;
+}
+
+.next-btn{
+    right:-25px;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .experience-card{
+        flex:0 0 300px;
+    }
+
+    .carousel-btn{
+        width:45px;
+        height:45px;
+        font-size:1rem;
+    }
+
+    .prev-btn{
+        left:-10px;
+    }
+
+    .next-btn{
+        right:-10px;
+    }
 }
 
 /* =====================================
@@ -739,54 +848,4 @@ footer p{
     line-height:1.7;
 }
 
-/* Arrow Buttons */
-
-.carousel-btn{
-    position:absolute;
-    top:45%;
-
-    width:55px;
-    height:55px;
-
-    border:none;
-    border-radius:50%;
-
-    background:white;
-    color:#111;
-
-    cursor:pointer;
-
-    font-size:1.4rem;
-
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
-
-    z-index:10;
-
-    transition:.3s ease;
-}
-
-.carousel-btn:hover{
-    transform:scale(1.1);
-}
-
-.prev-btn{
-    left:-25px;
-}
-
-.next-btn{
-    right:-25px;
-}
-
-@media(max-width:768px){
-
-    .experience-card{
-        min-width:300px;
-    }
-
-    .carousel-btn{
-        width:45px;
-        height:45px;
-    }
-
-}
 }
