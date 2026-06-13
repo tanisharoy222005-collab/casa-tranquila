@@ -18,7 +18,8 @@
     "title": "MG Marg",
     "distance": "17 km",
     "description": "Discover Gangtok's vibrant promenade lined with cafés, shops, and local culture.",
-    "image": "assets/images/experiences/mg-marg.jpg"
+    "image": "assets/images/experiences/mg-marg1.jpg"
+    "image": "assets/images/experiences/mg-marg2.jpg"
   },
   {
     "id": 4,
@@ -33,12 +34,5 @@
     "distance": "40 km",
     "description": "A breathtaking glacial lake surrounded by mountains and changing colors through the seasons.",
     "image": "assets/images/experiences/tsomgo.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Local Village Walks",
-    "distance": "Nearby",
-    "description": "Experience the slower rhythm of Sikkim through guided walks, local interactions, and scenic countryside trails.",
-    "image": "assets/images/experiences/village.jpg"
   }
 ]
