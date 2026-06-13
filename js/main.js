@@ -43,4 +43,11 @@ if (gallerySlider && nextGallery && prevGallery) {
         });
     });
 
-    prevGallery.addEvent
+    prevGallery.addEventListener("click", () => {
+        gallerySlider.scrollBy({
+            left: -420,
+            behavior: "smooth"
+        });
+    });
+
+}
