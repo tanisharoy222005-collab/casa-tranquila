@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Deluxe Room",
+    "subtitle": "Comfort Meets The Mountains",
+    "size": "252 sq ft",
+    "occupancy": "2 Guests",
+    "bed": "King Bed",
+    "view": "Mountain View",
+    "description": "Spacious and thoughtfully designed, the Deluxe Room offers warm interiors, natural light, and uninterrupted views of the surrounding hills.",
+    "image": "assets/images/rooms/deluxe.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Premium Room",
+    "subtitle": "Panoramic Valley Views",
+    "size": "252 sq ft",
+    "occupancy": "2 Guests",
+    "bed": "King Bed",
+    "view": "Panoramic Mountain View",
+    "description": "Wake up to sweeping views of Gangtok and the Himalayan landscape from a room designed for quiet comfort and relaxation.",
+    "image": "assets/images/rooms/premium.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Family Room",
+    "subtitle": "Space For Shared Moments",
+    "size": "300 sq ft",
+    "occupancy": "5 Guests",
+    "bed": "Double Bed",
+    "view": "Mountain View",
+    "description": "Ideal for families and small groups, offering generous space, comfort, and a welcoming atmosphere for memorable stays.",
+    "image": "assets/images/rooms/family.jpg"
+  }
+]
