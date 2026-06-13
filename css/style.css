@@ -357,7 +357,7 @@ p{
 }
 
 /* =====================================
-   GALLERY CAROUSEL
+   GALLERY SECTION
 ===================================== */
 
 #gallery{
@@ -365,37 +365,140 @@ p{
     overflow:hidden;
 }
 
+#gallery .container{
+    margin-bottom:60px;
+}
+
+.carousel-wrapper{
+    position:relative;
+    width:92%;
+    max-width:1400px;
+    margin:auto;
+}
+
+/* =====================================
+   GALLERY SLIDER
+===================================== */
+
 #gallery-grid{
     display:flex;
     flex-wrap:nowrap;
+
     gap:25px;
 
-    overflow:hidden;
+    overflow-x:hidden;
 
     scroll-behavior:smooth;
+
+    width:100%;
 }
 
 .gallery-card{
-    flex:0 0 380px;
+    flex:0 0 420px;
+
+    background:#fff;
 
     border-radius:20px;
+
     overflow:hidden;
 
-    background:white;
-
     box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s ease;
+}
+
+.gallery-card:hover{
+    transform:translateY(-8px);
 }
 
 .gallery-card img{
     width:100%;
-    height:280px;
+    height:300px;
+
     object-fit:cover;
+
+    display:block;
 
     transition:.4s ease;
 }
 
 .gallery-card:hover img{
     transform:scale(1.05);
+}
+
+/* =====================================
+   ARROW BUTTONS
+===================================== */
+
+.prev-gallery,
+.next-gallery{
+    position:absolute;
+
+    top:50%;
+    transform:translateY(-50%);
+
+    width:60px;
+    height:60px;
+
+    border:none;
+    border-radius:50%;
+
+    background:white;
+
+    color:#111;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+
+    z-index:20;
+
+    transition:.3s ease;
+}
+
+.prev-gallery:hover,
+.next-gallery:hover{
+    transform:translateY(-50%) scale(1.08);
+}
+
+.prev-gallery{
+    left:-30px;
+}
+
+.next-gallery{
+    right:-30px;
+}
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media(max-width:768px){
+
+    .gallery-card{
+        flex:0 0 300px;
+    }
+
+    .gallery-card img{
+        height:220px;
+    }
+
+    .prev-gallery,
+    .next-gallery{
+        width:45px;
+        height:45px;
+        font-size:20px;
+    }
+
+    .prev-gallery{
+        left:-10px;
+    }
+
+    .next-gallery{
+        right:-10px;
+    }
 }
 /* ============================
    EXPERIENCES SECTION
