@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Rumtek Monastery",
+    "distance": "6 km",
+    "description": "Explore one of Sikkim's most important Buddhist monasteries, known for its spiritual significance and stunning architecture.",
+    "image": "assets/images/experiences/rumtek.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Banjhakri Falls",
+    "distance": "11 km",
+    "description": "A beautiful waterfall surrounded by landscaped gardens and local folklore-inspired sculptures.",
+    "image": "assets/images/experiences/banjhakri.jpg"
+  },
+  {
+    "id": 3,
+    "title": "MG Marg",
+    "distance": "17 km",
+    "description": "Discover Gangtok's vibrant promenade lined with cafés, shops, and local culture.",
+    "image": "assets/images/experiences/mg-marg.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Namgyal Institute of Tibetology",
+    "distance": "9 km",
+    "description": "Home to rare manuscripts, artifacts, and one of the world's most important collections of Tibetan studies.",
+    "image": "assets/images/experiences/tibetology.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Tsomgo Lake",
+    "distance": "40 km",
+    "description": "A breathtaking glacial lake surrounded by mountains and changing colors through the seasons.",
+    "image": "assets/images/experiences/tsomgo.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Local Village Walks",
+    "distance": "Nearby",
+    "description": "Experience the slower rhythm of Sikkim through guided walks, local interactions, and scenic countryside trails.",
+    "image": "assets/images/experiences/village.jpg"
+  }
+]
