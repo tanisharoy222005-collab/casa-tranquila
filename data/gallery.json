@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Hilltop Retreat",
+    "category": "Exterior",
+    "image": "assets/images/gallery/gallery-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Rooftop Dining",
+    "category": "Dining",
+    "image": "assets/images/gallery/gallery-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Morning Views",
+    "category": "View",
+    "image": "assets/images/gallery/gallery-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Premium Room",
+    "category": "Rooms",
+    "image": "assets/images/gallery/gallery-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Sunset Over Gangtok",
+    "category": "View",
+    "image": "assets/images/gallery/gallery-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Casa Kitchen",
+    "category": "Dining",
+    "image": "assets/images/gallery/gallery-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Garden Spaces",
+    "category": "Property",
+    "image": "assets/images/gallery/gallery-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Balcony View",
+    "category": "Rooms",
+    "image": "assets/images/gallery/gallery-8.jpg"
+  }
+]
